@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noEmit": false,
+      "jsx": "react",
+      "skipLibCheck": false,
+      "sourceMap": true,
+      "typeRoots": ["./node_modules/@types/", "./@types/"]
+    },
+    "include": ["src/**/*", "@types/**/*"],
+    "exclude": ["node_modules", "applications", "build", "coverage"]
+  }

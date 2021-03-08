@@ -1,0 +1,14 @@
+# packages
+node_modules/
+yarn-error.log
+
+# local
+.env
+.DS_Store
+
+# build
+dist
+build
+
+# test
+coverage/
